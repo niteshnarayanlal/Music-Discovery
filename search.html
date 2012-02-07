@@ -1,0 +1,35 @@
+<html>
+<head>            
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript">
+function timeMsg()
+{
+var t=setTimeout("alertMsg()",10000);
+}
+function alertMsg()
+{
+alert("Please Wait Don't Close The Tab While You The Song Is Being Downloaded");
+}
+</script>
+</head>
+<body onload="init()">
+ <div id="container">
+ <table width=100%>
+    <tr>
+    <td width=100%>
+    <input id="searchbox" type="text" value="enter the song name"  >
+     <input id="artistname" type="text" value="enter the artist name"  >
+    </input>
+    </td>
+
+    <td width=50%>
+    <div id="searchbutton" onclick="alert('Enter Both Song and Artist Name And Select Download And Press ctrl+s To Download ')" title="Music" >
+   
+
+    </div>
+    </td>
+ </table>
+ </div>     
+</body>
+</html>

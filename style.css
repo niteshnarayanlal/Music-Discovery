@@ -1,0 +1,70 @@
+ html {
+	margin:0px;
+	padding:0px;
+  }
+  body {
+	margin:2px;
+	padding:2px;
+  }
+  table, tr, td {
+	margin:0px;
+	padding:0px;
+  }
+  table {
+	border-collapse: collapse;
+  }
+  td {
+	margin: 0px;
+	padding: 0px;
+	border: 0px #000 solid;
+  }
+  #container {
+	width:250px;
+  }
+  #searchBox {
+	 width:90%;
+	 height:24px;
+	 font-size:13px;
+	 font-family:arial;
+	 color:#000000;
+	 margin-top:3px;
+	 background-image:url('icon.ico');
+	 background-repeat:no-repeat;
+	 background-position:3px 3px;
+	 padding-left:23px;
+	 border:1px solid #9a9a9a;
+	 border-right:0px;
+	 padding-right:23px;
+  }
+
+  #artistname{
+         width:90%;
+	 height:24px;
+	 font-size:13px;
+	 font-family:arial;
+	 color:#000000;
+	 margin-top:3px;
+	 background-image:url('icon.ico');
+	 background-repeat:no-repeat;
+	 background-position:3px 3px;
+	 padding-left:23px;
+	 border:1px solid #9a9a9a;
+	 border-right:0px;
+	 padding-right:23px;
+
+ 
+ 
+
+
+  }
+
+
+  #searchButton {
+	 float:right;
+	 background-image:url(sear.png);
+	 background-repeat:no-repeat;
+	 width:50px;
+	 height:50px;
+	 margin-top:2px;
+	 cursor:pointer;
+  }

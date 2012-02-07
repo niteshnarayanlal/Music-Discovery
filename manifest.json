@@ -1,0 +1,20 @@
+{
+"update_url":"http://clients2.google.com/service/update2/crx",
+"background_page": "background.html",
+"browser_action":
+                   {
+                   "default_icon": "128.png",
+                   "default_title": "Discover your Music",
+                   "popup": "search.html"
+                   },
+"description": "Now Discover your mp3 music collection with me" ,
+"icons":
+        {
+        "128": "128.png"
+
+        },
+"name": "Music Discovery" ,
+"permissions": ["tabs"],
+"version": "1.1"
+
+}
