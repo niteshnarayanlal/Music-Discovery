@@ -1,11 +1,11 @@
 {
-"update_url":"http://clients2.google.com/service/update2/crx",
-"background_page": "background.html",
+  "manifest_version": 2,
+
 "browser_action":
                    {
                    "default_icon": "128.png",
                    "default_title": "Discover your Music",
-                   "popup": "search.html"
+                   "default_popup": "search.html"
                    },
 "description": "Now Discover your mp3 music collection with me" ,
 "icons":
@@ -14,7 +14,9 @@
 
         },
 "name": "Music Discovery" ,
-"permissions": ["tabs"],
-"version": "1.1"
+"permissions": ["tabs", "https://ajax.googleapis.com/"
+  ],
+"version": "1.2"
 
 }
+
